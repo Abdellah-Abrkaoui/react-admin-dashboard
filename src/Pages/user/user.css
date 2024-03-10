@@ -1,0 +1,187 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+
+.TopWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.secondWrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.edituser{
+    padding: 5px 10px;
+    background-color: teal;
+    color: white;
+    font-size: 14px;
+    border-radius: 9px;
+    border: 0;
+    cursor: pointer;
+}
+
+.BottomWrapper{
+    margin-top: 20px;
+    display: flex;
+    padding: 20px;
+
+}
+
+.ShowUsernfos{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 6px 7px 14px -8px rgba(0, 0, 0, 0.69);
+    -webkit-box-shadow: 6px 7px 14px -8px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 6px 7px 14px -8px rgba(0, 0, 0, 0.69);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Showtop{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.ShowTopInfos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.Username{
+    font-weight: 600;
+}
+
+.UserJob{
+    font-weight: 300;
+}
+
+
+.ShowBottom{
+    margin-top: 20px;
+}
+
+.ShowBottomTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(139, 132, 132);
+}
+
+.ShowBottomInfos{
+    margin-top: 10px;
+}
+
+.InfosContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.InfosContainer span{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.InfosIcons{
+    font-size: 18px !important;
+}
+
+
+.EditUserInfos{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 6px 7px 14px -8px rgba(0, 0, 0, 0.69);
+    -webkit-box-shadow: 6px 7px 14px -8px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 6px 7px 14px -8px rgba(0, 0, 0, 0.69);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left:20px ;
+}
+
+
+.EditUserInfosTitle{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.EditUserInfosWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.leftwrapper{
+    flex: 1;
+}
+
+.rightwrapper{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.EditUserInfosWrapper{
+    padding: 20px 0px;
+}
+
+.formItems{
+    display: flex;
+    flex-direction: column;
+}
+
+.formItems>label{
+    margin-top: 5px;
+}
+
+.formItems input{
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    padding: 5px 0px;
+    outline: 0;
+    margin-bottom: 5px;
+}
+
+
+.ImageContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.rightImg{
+width: 100px;
+height: 130px;
+border-radius:10px;
+cursor: pointer;
+}
+
+.updateIcon{
+    cursor: pointer;
+}
+
+
+.UpdateUserBtn{
+    width: 50%;
+    border: 0;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 5px;
+}
